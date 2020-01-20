@@ -61,6 +61,7 @@
   position: relative;
   font-weight: 700;
   color: #fff;
+  border: 1px solid #fff;
 }
 .article-summary {
   margin-top: 15%;
@@ -71,10 +72,13 @@
 .featured-article2 {
   background-color: #c7372a;
 }
-.featured-articles {
+.featured-articles,
+.featured-articles2,
+.old-articles {
   display: flex;
   width: 100%;
-  
+  border: 1px solid #fff;
+
 }
 
 /*divider*/
