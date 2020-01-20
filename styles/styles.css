@@ -1,0 +1,77 @@
+.logo,
+.search {
+  border: 1px solid #fff;
+  background-color: grey;
+  width: 200px;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  color: #fff;
+}
+.logo img {
+  height: 3.75em;
+}
+.navbar {
+  display: flex;
+  padding: 1em 0;
+  background: #d33a2c;
+  position: relative;
+  min-height: 6.2375rem;
+}
+.menu-items {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 90%;
+  justify-content: space-between;
+  background-color: grey;
+}
+.menu-items li {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 20%;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #fff;
+}
+.article {
+  background-color: #d33a2c;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 0;
+}
+.article h1 {
+  margin-left: 37%;
+  font-family: MijaInitial;
+  font-size: 39px;
+  text-align: center;
+}
+.article-title span {
+  background-color: #fff;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+}
+.featured-article1,
+.featured-article2 {
+  background-color: #bc3428;
+  font-family: Mija;
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  padding: 10em 5vw 7em;
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+}
+.article-summary {
+  margin-top: 15%;
+}
+.tags {
+  margin-top: 10%;
+}
+.featured-article2 {
+  background-color: #c7372a;
+}
+.featured-articles {
+  display: flex;
+  width: 100%;
+}
