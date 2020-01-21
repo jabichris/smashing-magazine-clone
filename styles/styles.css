@@ -55,8 +55,9 @@
 }
 .featured-article1,
 .featured-article2,
+.featured-article3,
+.featured-article4,
 .numbers {
-  background-color: grey;
   font-family: Mija;
   width: 50%;
   flex-direction: column;
@@ -66,6 +67,16 @@
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
+}
+.featured-article3,
+.featured-article4 {
+  background-color: white;
+  color: black;
+}
+.featured-article1,
+.featured-article2,
+.numbers {
+  background-color: grey;
 }
 .article-summary {
   margin-top: 15%;
@@ -82,6 +93,9 @@
   display: flex;
   width: 100%;
   border: 1px solid #fff;
+}
+.old-articles {
+  height: 640px;
 }
 
 /*divider*/
