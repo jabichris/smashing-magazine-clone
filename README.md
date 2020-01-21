@@ -1,12 +1,16 @@
 # HTML forms
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > This is the fifth project of Microverse.
 
 
 =======
 > This is the fifth project of a learning program.
 >>>>>>> 612fc1500a96e5e146e8ab23b1197c63112b878f
+=======
+> This is the fifth project of a learning program.
+>>>>>>> c5db40f88d98d6d7649c043017626d2a3daccc27
 
 DESIGN TEARDOWN
 
@@ -40,9 +44,12 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Microverse
 =======
 >>>>>>> 612fc1500a96e5e146e8ab23b1197c63112b878f
+=======
+>>>>>>> c5db40f88d98d6d7649c043017626d2a3daccc27
 - Everyone else
 
 ## 📝 License
