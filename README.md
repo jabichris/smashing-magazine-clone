@@ -1,8 +1,6 @@
 # HTML forms
 
-> This is the fifth project of Microverse.
-
-
+> This is the fifth project of a learning program.
 
 DESIGN TEARDOWN
 
@@ -35,7 +33,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
 - Everyone else
 
 ## 📝 License

@@ -14,7 +14,7 @@
 .navbar {
   display: flex;
   padding: 1em 0;
-  background: #d33a2c;
+  background: white;
   position: relative;
   min-height: 6.2375rem;
 }
@@ -34,16 +34,19 @@
   border: 1px solid #fff;
 }
 .article {
-  background-color: #d33a2c;
   display: flex;
   flex-wrap: wrap;
   min-height: 0;
+  padding: 20px;
 }
-.article h1 {
-  margin-left: 37%;
+.read {
+  z-index: 8;
+  position: absolute;
   font-family: MijaInitial;
   font-size: 39px;
   text-align: center;
+  background: grey;
+  width: 96%;
 }
 .article-title span {
   background-color: #fff;
@@ -51,8 +54,10 @@
   line-height: 1.5em;
 }
 .featured-article1,
-.featured-article2 {
-  background-color: #bc3428;
+.featured-article2,
+.featured-article3,
+.featured-article4,
+.numbers {
   font-family: Mija;
   width: 50%;
   flex-direction: column;
@@ -63,6 +68,16 @@
   color: #fff;
   border: 1px solid #fff;
 }
+.featured-article3,
+.featured-article4 {
+  background-color: white;
+  color: black;
+}
+.featured-article1,
+.featured-article2,
+.numbers {
+  background-color: grey;
+}
 .article-summary {
   margin-top: 15%;
 }
@@ -70,7 +85,7 @@
   margin-top: 10%;
 }
 .featured-article2 {
-  background-color: #c7372a;
+  background-color: grey;
 }
 .featured-articles,
 .featured-articles2,
@@ -78,51 +93,84 @@
   display: flex;
   width: 100%;
   border: 1px solid #fff;
-
+}
+.old-articles {
+  height: 640px;
 }
 
 /*divider*/
 
-.see-articles{
+.see-articles {
   min-height: 300px;
   width: 100%;
   background: white;
   text-align: center;
-
 }
 
-.see-link{
+.see-link {
   padding-top: 200px;
 }
 
 .see-articles a:link {
   color: black;
-  border-bottom: 4px solid #D33A2D;
+  border-bottom: 4px solid grey;
   text-decoration: none;
 }
 
 .see-articles a:hover {
-  color: #D33A2D;
+  color: grey;
   text-decoration: none;
+}
+
+.blue-divider {
+  background-color: grey;
+  text-align: center;
+  height: 900px;
+  width: 100%;
+  color: white;
+}
+
+.blue-divider h2 {
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.blue-divider h3 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.blue-divider p {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.learn {
+  background-color: white;
+  width: 20%;
+  height: 60px;
+  color: black;
+  margin-left: 40%;
+  margin-top: 70px;
 }
 
 /* footer*/
 
-.container{
+.container {
   text-align: center;
   min-height: 650px;
   padding-top: 40px;
   font-size: 20px;
-  background: #D33A2D;
+  background: grey;
   color: #ffffff;
 }
 
-.container p{
+.container p {
   margin-top: 40px;
   font-size: 18px;
 }
 
-.container2{
+.container2 {
   display: block;
   max-width: 70%;
   margin-left: 15%;
@@ -130,26 +178,54 @@
   min-height: 200px;
   padding-top: 40px;
   font-size: 24px;
-
 }
 .item {
   margin-bottom: 40px;
   margin-right: 5px;
   display: inline-block;
-
 }
-  .item::before{
+.item::before {
   content: "•";
-  color: #811D17
+  color: grey;
+}
+.white-div {
+  background-color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+.profile-image {
+  width: 186px;
+  height: 121px;
+  margin-top: 42px;
+  background-color: black;
+}
+.profile-bio {
+  margin-left: 20px;
+  padding: 40px;
+  font-family: Elena;
+  font-size: calc(0.35842vw + 0.95296em);
+}
+.profile-bio p {
+  margin-top: 10px;
+}
+.grid {
+  margin-top: 30px;
+  grid-template-columns: auto auto;
+  display: grid;
 }
 
-.container3{
+.grid-item {
+  margin: 10px;
+  font-size: 10px;
+  display: flex;
+}
+.container3 {
   max-width: 25%;
   margin-left: 38%;
   padding-top: 40px;
   margin-top: 40px;
   font-size: 18px;
-
 }
 .container a:link {
   color: #ffffff;
@@ -160,13 +236,31 @@
   color: black;
   text-decoration: none;
 }
-.bird{
+.bird {
   position: absolute;
   left: 10%;
+  background: black;
+  height: 160px;
+  width: 200px;
+  margin-top: 36px;
 }
 
-.cat{
+.cat {
   position: absolute;
   right: 10%;
   margin-top: 40px;
+  background: black;
+  height: 160px;
+  width: 200px;
+}
+.number-uno {
+  width: 30%;
+  margin: 5%;
+  height: 551px;
+  background: #ffffff;
+}
+.numbers {
+  background: grey;
+  padding: 20px;
+  width: 65%;
 }
