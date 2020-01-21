@@ -1,0 +1,266 @@
+.logo,
+.search {
+  border: 1px solid #fff;
+  background-color: grey;
+  width: 200px;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  color: #fff;
+}
+.logo img {
+  height: 3.75em;
+}
+.navbar {
+  display: flex;
+  padding: 1em 0;
+  background: white;
+  position: relative;
+  min-height: 6.2375rem;
+}
+.menu-items {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 90%;
+  justify-content: space-between;
+  background-color: grey;
+}
+.menu-items li {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 20%;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #fff;
+}
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 0;
+  padding: 20px;
+}
+.read {
+  z-index: 8;
+  position: absolute;
+  font-family: MijaInitial;
+  font-size: 39px;
+  text-align: center;
+  background: grey;
+  width: 96%;
+}
+.article-title span {
+  background-color: #fff;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+}
+.featured-article1,
+.featured-article2,
+.featured-article3,
+.featured-article4,
+.numbers {
+  font-family: Mija;
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  padding: 10em 5vw 7em;
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.featured-article3,
+.featured-article4 {
+  background-color: white;
+  color: black;
+}
+.featured-article1,
+.featured-article2,
+.numbers {
+  background-color: grey;
+}
+.article-summary {
+  margin-top: 15%;
+}
+.tags {
+  margin-top: 10%;
+}
+.featured-article2 {
+  background-color: grey;
+}
+.featured-articles,
+.featured-articles2,
+.old-articles {
+  display: flex;
+  width: 100%;
+  border: 1px solid #fff;
+}
+.old-articles {
+  height: 640px;
+}
+
+/*divider*/
+
+.see-articles {
+  min-height: 300px;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+.see-link {
+  padding-top: 200px;
+}
+
+.see-articles a:link {
+  color: black;
+  border-bottom: 4px solid grey;
+  text-decoration: none;
+}
+
+.see-articles a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.blue-divider {
+  background-color: grey;
+  text-align: center;
+  height: 900px;
+  width: 100%;
+  color: white;
+}
+
+.blue-divider h2 {
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.blue-divider h3 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.blue-divider p {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.learn {
+  background-color: white;
+  width: 20%;
+  height: 60px;
+  color: black;
+  margin-left: 40%;
+  margin-top: 70px;
+}
+
+/* footer*/
+
+.container {
+  text-align: center;
+  min-height: 650px;
+  padding-top: 40px;
+  font-size: 20px;
+  background: grey;
+  color: #ffffff;
+}
+
+.container p {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.container2 {
+  display: block;
+  max-width: 70%;
+  margin-left: 15%;
+  margin-top: 40px;
+  min-height: 200px;
+  padding-top: 40px;
+  font-size: 24px;
+}
+.item {
+  margin-bottom: 40px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.item::before {
+  content: "•";
+  color: grey;
+}
+.white-div {
+  background-color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+.profile-image {
+  width: 186px;
+  height: 121px;
+  margin-top: 42px;
+  background-color: black;
+}
+.profile-bio {
+  margin-left: 20px;
+  padding: 40px;
+  font-family: Elena;
+  font-size: calc(0.35842vw + 0.95296em);
+}
+.profile-bio p {
+  margin-top: 10px;
+}
+.grid {
+  margin-top: 30px;
+  grid-template-columns: auto auto;
+  display: grid;
+}
+
+.grid-item {
+  margin: 10px;
+  font-size: 10px;
+  display: flex;
+}
+.container3 {
+  max-width: 25%;
+  margin-left: 38%;
+  padding-top: 40px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.container a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: black;
+  text-decoration: none;
+}
+.bird {
+  position: absolute;
+  left: 10%;
+  background: black;
+  height: 160px;
+  width: 200px;
+  margin-top: 36px;
+}
+
+.cat {
+  position: absolute;
+  right: 10%;
+  margin-top: 40px;
+  background: black;
+  height: 160px;
+  width: 200px;
+}
+.number-uno {
+  width: 30%;
+  margin: 5%;
+  height: 551px;
+  background: #ffffff;
+}
+.numbers {
+  background: grey;
+  padding: 20px;
+  width: 65%;
+}
